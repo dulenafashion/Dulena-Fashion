@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DULENA FASHION | Elegance in Every Wear</title>
+<style>
+:root{
+  --cream:#fbf3ea; --rose:#d9a28f; --brown:#5b3325; --soft:#f2ddd2;
+  --white:#fffdf9; --muted:#80685d;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia, "Times New Roman", serif;background:var(--cream);color:var(--brown);line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,253,249,.94);backdrop-filter:blur(10px);border-bottom:1px solid #ead8cd}
+.nav-inner{max-width:1180px;margin:auto;padding:15px 24px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:27px;letter-spacing:5px;font-weight:700}
+.brand small{display:block;font:11px Arial,sans-serif;letter-spacing:5px;text-align:center;margin-top:-5px}
+.nav-links{display:flex;gap:28px;font:14px Arial,sans-serif}
+.hero{min-height:72vh;display:grid;place-items:center;text-align:center;padding:80px 24px;
+background:radial-gradient(circle at 50% 45%,#fffdf9 0,#f8e9df 48%,#ecd2c5 100%)}
+.hero-inner{max-width:900px}
+.logo-wrap{width:170px;height:170px;margin:0 auto 25px;border-radius:50%;overflow:hidden;border:1px solid #c9917c;background:#fffaf4}
+.logo-wrap img{width:100%;height:100%;object-fit:cover}
+h1{font-size:clamp(48px,8vw,88px);letter-spacing:10px;line-height:1;margin-bottom:10px}
+.kicker{font:13px Arial,sans-serif;letter-spacing:7px;margin-bottom:20px}
+.tagline{font-style:italic;font-size:21px;color:var(--muted)}
+.cta{display:inline-block;margin-top:32px;padding:14px 28px;border:1px solid var(--brown);border-radius:30px;font:13px Arial,sans-serif;letter-spacing:2px;background:var(--white)}
+.section{max-width:1100px;margin:auto;padding:85px 24px}
+.section-title{text-align:center;margin-bottom:45px}
+.section-title h2{font-size:38px;margin-bottom:8px}
+.section-title p{font:13px Arial,sans-serif;color:var(--muted);letter-spacing:1px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:var(--white);border:1px solid #ead8cd;min-height:260px;padding:35px 25px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.card .icon{font-size:36px;margin-bottom:15px}
+.card h3{font-size:22px;margin-bottom:8px}
+.card p{font:14px Arial,sans-serif;color:var(--muted)}
+.story{background:#f4e0d6}
+.story-inner{max-width:900px;margin:auto;text-align:center;padding:85px 24px}
+.story-inner h2{font-size:38px;margin-bottom:18px}
+.story-inner p{font-size:17px;color:#72594e}
+.footer{background:#4d2d23;color:#fff8f2;text-align:center;padding:45px 20px}
+.footer .brand{margin-bottom:8px}
+.footer p{font:12px Arial,sans-serif;opacity:.8}
+@media(max-width:700px){
+ .nav-links{display:none}.cards{grid-template-columns:1fr}
+ .hero{min-height:75vh}.logo-wrap{width:140px;height:140px}
+ h1{letter-spacing:6px}.section{padding:65px 18px}
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="#">DULENA<small>FASHION</small></a>
+    <div class="nav-links">
+      <a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="logo-wrap">
+      <img src="dulena-logo.png" alt="DULENA FASHION logo" onerror="this.style.display='none'">
+    </div>
+    <h1>DULENA</h1>
+    <div class="kicker">FASHION</div>
+    <div class="tagline">Elegance in Every Wear</div>
+    <a class="cta" href="#collection">EXPLORE COLLECTION</a>
+  </div>
+</section>
+
+<section class="section" id="collection">
+  <div class="section-title">
+    <h2>Our Collection</h2>
+    <p>NEW ARRIVALS &amp; TIMELESS STYLE</p>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="icon">✦</div><h3>Coming Soon</h3><p>Your beautiful collection will appear here.</p></div>
+    <div class="card"><div class="icon">♡</div><h3>Women’s Wear</h3><p>Elegant pieces selected with love.</p></div>
+    <div class="card"><div class="icon">✧</div><h3>New Arrivals</h3><p>Fresh styles will be added soon.</p></div>
+  </div>
+</section>
+
+<section class="story" id="about">
+  <div class="story-inner">
+    <h2>More Than Just Fashion</h2>
+    <p>DULENA FASHION is a women’s fashion brand built around elegance, comfort and confidence. Our collection is coming soon — stay connected for the first launch.</p>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-title">
+    <h2>Stay Connected</h2>
+    <p>FOLLOW DULENA FASHION FOR OUR LAUNCH</p>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="icon">◎</div><h3>Facebook</h3><p>Facebook page link can be added here.</p></div>
+    <div class="card"><div class="icon">◉</div><h3>Instagram</h3><p>Instagram link can be added here.</p></div>
+    <div class="card"><div class="icon">♡</div><h3>Order</h3><p>Order / WhatsApp button can be connected later.</p></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="brand">DULENA<small>FASHION</small></div>
+  <p>Elegance in Every Wear · © 2026 DULENA FASHION</p>
+</footer>
+</body>
+</html>
